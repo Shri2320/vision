@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import logoImage from '../public/logo.jpg';
 
+
 export default function Navbar({ triggerLogin }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
